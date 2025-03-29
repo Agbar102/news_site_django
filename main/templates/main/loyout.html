@@ -25,8 +25,14 @@
     <a href="{% url 'about' %}">
         <li><i class="fa fa-address-card"></i> Про нас</li>
     </a>
+         <a href="{% url 'news' %}">
+        <li><i class="fa fa-newspaper-o"></i>Новости</li>
+    </a>
     <a href="#">
         <li><i class="fa fa-envelope"></i> Контакты</li>
+    </a>
+    <a href="{% url 'create' %}">
+        <li><button class="btn btn-info"><i class="fa fa-plus-circle">Добавить запись</i></button></li>
     </a>
 </ul>
 
